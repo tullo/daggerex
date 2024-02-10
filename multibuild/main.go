@@ -18,9 +18,12 @@ func build(ctx context.Context) error {
 	fmt.Println("Building with Dagger")
 
 	// define build matrix
-	oses := []string{"linux", "darwin"}
-	arches := []string{"amd64", "arm64"}
-	goVersions := []string{"1.21", "1.22"}
+	oses := []string{"linux"}
+	arches := []string{"amd64"}
+	goVersions := []string{"1.22"}
+	//oses := []string{"linux", "darwin"}
+	//arches := []string{"amd64", "arm64"}
+	//goVersions := []string{"1.21", "1.22"}
 
 	// initialize Dagger client
 	client, err := dagger.Connect(ctx, dagger.WithLogOutput(os.Stderr))
