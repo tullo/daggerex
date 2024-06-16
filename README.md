@@ -1,0 +1,1 @@
+`dagger run go run .`
