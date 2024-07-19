@@ -2,7 +2,7 @@ module multibuild
 
 go 1.22.2
 
-require dagger.io/dagger v0.12.0
+require dagger.io/dagger v0.12.1
 
 require (
 	github.com/99designs/gqlgen v0.17.49 // indirect
