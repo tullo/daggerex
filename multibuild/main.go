@@ -20,7 +20,7 @@ func build(ctx context.Context) error {
 	// define build matrix
 	oses := []string{"linux"}
 	arches := []string{"amd64"}
-	goVersions := []string{"1.24", "1.23"}
+	goVersions := []string{"1.24"}
 	//oses := []string{"linux", "darwin"}
 	//arches := []string{"amd64", "arm64"}
 	//goVersions := []string{"1.21", "1.22"}
