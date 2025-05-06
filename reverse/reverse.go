@@ -3,6 +3,7 @@
 // license that can be found in the LICENSE file.
 // Package reverse can reverse things, particularly strings.
 package reverse
+
 // String returns its argument string reversed rune-wise left to right.
 func String(s string) string {
 	r := []rune(s)

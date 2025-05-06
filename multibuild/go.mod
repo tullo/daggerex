@@ -1,10 +1,10 @@
 module multibuild
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.24.2
 
-require dagger.io/dagger v0.18.5
+require dagger.io/dagger v0.18.6
 
 require (
 	github.com/99designs/gqlgen v0.17.70 // indirect
@@ -34,7 +34,6 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.34.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
-	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
 	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sync v0.12.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect

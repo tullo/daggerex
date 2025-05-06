@@ -2,7 +2,9 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 package reverse
+
 import "testing"
+
 func TestString(t *testing.T) {
 	for _, c := range []struct {
 		in, want string
